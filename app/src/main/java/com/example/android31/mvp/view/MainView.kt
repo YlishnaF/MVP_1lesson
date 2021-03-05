@@ -1,5 +1,8 @@
 package com.example.android31.mvp.view
 
 interface MainView {
-    fun setButtonText(index: Int, text: String)
+    fun setButtonTextFirstButton(index: Int, text: String)
+    fun setButtonTextSecondButton(index: Int, text: String)
+    fun setButtonTextThirdButton(index: Int, text: String)
+
 }
